@@ -11,6 +11,7 @@ services:
   jenkins:
     image: jenkins/jenkins:lts-jdk21
     container_name: jenkins
+    user: root
     <<: *default-restart
     ports:
       - "8081:8080"
