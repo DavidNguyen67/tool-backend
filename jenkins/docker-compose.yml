@@ -79,9 +79,9 @@ services:
 
 volumes:
   jenkins_data:
-    driver: local
+    external: true
   jenkins-docker-certs:
-    driver: local
+    external: true
 
 networks:
   jenkins_network:
