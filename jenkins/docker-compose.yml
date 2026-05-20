@@ -81,7 +81,7 @@ volumes:
   jenkins_data:
     external: true
   jenkins-docker-certs:
-    driver: local
+    external: true
 
 networks:
   jenkins_network:
