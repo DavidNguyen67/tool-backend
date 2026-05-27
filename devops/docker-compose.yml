@@ -81,8 +81,7 @@ volumes:
   jenkins_data:
     external: true
   jenkins-docker-certs:
-    external: true
-
+    driver: local
 networks:
   jenkins_network:
     driver: bridge
