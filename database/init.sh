@@ -12,7 +12,7 @@ else
 fi
 
 echo "🚀 Đang khởi động infra..."
-docker compose up --env-file .env -d --build
+docker compose up -d --build
 
 echo ""
 echo "✅ Các service đã chạy!"
